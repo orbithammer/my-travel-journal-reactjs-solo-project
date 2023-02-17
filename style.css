@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.4375rem;
+    background-color: #F55A5A;
+    color: #fff;
+    font-size: 0.9375rem;
+}
+
+header img {
+    width: 1.5rem;
+    margin-right: 0.4375rem;
+}
+
+main {
+    padding: 2.5rem;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 1.125rem 0;
+}
+
+.card:last-of-type {
+    border: none;
+}
+
+.cover-img {
+    width: 7.8125rem;
+    height: 8.5rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pin {
+    width: 0.4375rem;
+    margin-right: 0.25rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.1875rem;
+}
+
+.info p {
+    font-size: 0.6875rem;
+}
+
+.location {
+    font-weight: 400;
+    line-height: 0.75rem;
+    letter-spacing: 0.17em;
+}
+
+p a {
+    text-decoration-line: underline;
+    color: #918E9B;
+    letter-spacing: 0;
+    margin-left: 0.75rem
+}
+
+h1 {
+    margin: 0.4375rem 0;
+    font-size: 1.5625rem;
+    line-height: 1.875rem
+}
+
+.dates {
+    font-weight: 700;
+    line-height: 0.75rem;
+    color: #2B283A;
+}
+
+.description {
+    font-weight: 400;
+    line-height: 150%;
+    color: #2B283A;
+    margin-top: 0.5625rem;
+}
