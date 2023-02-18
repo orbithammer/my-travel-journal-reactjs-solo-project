@@ -1,7 +1,7 @@
 import React from "react"
 import data from "./data"
-import Header from "./Header"
-import Card from "./Card"
+import Header from "./components/Header"
+import Card from "./components/Card"
 
 export default function App() {
     const cards = data.map(card=>{
